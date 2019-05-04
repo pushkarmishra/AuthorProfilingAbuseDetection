@@ -1,0 +1,511 @@
+/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6 /Users/pushkarmishra/Desktop/AuthorProfileAbuseDetection/twitter_model.py -c 30000
+Using Theano backend.
+2018-03-06 16:58:33 - CVLog - INFO - 10-fold cross validation procedure has begun
+2018-03-06 16:58:33 - CVLog - INFO - Validation round 1 of 10 starting
+2018-03-06 16:58:33 - TrainingLog - INFO - Initiating training of main classifier
+2018-03-06 16:58:53 - TrainingLog - INFO - Feature extractor ready
+2018-03-06 16:58:55 - TrainingLog - INFO - 1001 of 14581 feature vectors prepared for training
+2018-03-06 16:58:57 - TrainingLog - INFO - 2001 of 14581 feature vectors prepared for training
+2018-03-06 16:58:59 - TrainingLog - INFO - 3001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:01 - TrainingLog - INFO - 4001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:03 - TrainingLog - INFO - 5001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:06 - TrainingLog - INFO - 6001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:09 - TrainingLog - INFO - 7001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:11 - TrainingLog - INFO - 8001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:13 - TrainingLog - INFO - 9001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:15 - TrainingLog - INFO - 10001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:17 - TrainingLog - INFO - 11001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:20 - TrainingLog - INFO - 12001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:22 - TrainingLog - INFO - 13001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:25 - TrainingLog - INFO - 14001 of 14581 feature vectors prepared for training
+2018-03-06 16:59:43 - TrainingLog - INFO - Main classifier training finished
+2018-03-06 16:59:43 - TestLog - INFO - 101 samples classified. Accuracy up till now is 0.801980198019802
+2018-03-06 16:59:44 - TestLog - INFO - 201 samples classified. Accuracy up till now is 0.8208955223880597
+2018-03-06 16:59:44 - TestLog - INFO - 301 samples classified. Accuracy up till now is 0.813953488372093
+2018-03-06 16:59:45 - TestLog - INFO - 401 samples classified. Accuracy up till now is 0.8104738154613467
+2018-03-06 16:59:46 - TestLog - INFO - 501 samples classified. Accuracy up till now is 0.8263473053892215
+2018-03-06 16:59:46 - TestLog - INFO - 601 samples classified. Accuracy up till now is 0.8369384359400999
+2018-03-06 16:59:47 - TestLog - INFO - 701 samples classified. Accuracy up till now is 0.8345221112696148
+2018-03-06 16:59:47 - TestLog - INFO - 801 samples classified. Accuracy up till now is 0.8339575530586767
+2018-03-06 16:59:48 - TestLog - INFO - 901 samples classified. Accuracy up till now is 0.8346281908990011
+2018-03-06 16:59:49 - TestLog - INFO - 1001 samples classified. Accuracy up till now is 0.8321678321678322
+2018-03-06 16:59:49 - TestLog - INFO - 1101 samples classified. Accuracy up till now is 0.8310626702997275
+2018-03-06 16:59:50 - TestLog - INFO - 1201 samples classified. Accuracy up till now is 0.8309741881765196
+2018-03-06 16:59:50 - TestLog - INFO - 1301 samples classified. Accuracy up till now is 0.8278247501921598
+2018-03-06 16:59:51 - TestLog - INFO - 1401 samples classified. Accuracy up till now is 0.8265524625267666
+2018-03-06 16:59:52 - TestLog - INFO - 1501 samples classified. Accuracy up till now is 0.8281145902731513
+2018-03-06 16:59:52 - TestLog - INFO - 1601 samples classified. Accuracy up till now is 0.8282323547782636
+2018-03-06 16:59:52 - TestLog - INFO - Total 1621 samples classified with accuracy 0.8285009253547193
+2018-03-06 16:59:52 - TestLog - INFO - AUROC is 0.9170369128337352
+2018-03-06 16:59:52 - TestLog - INFO - Classification report:
+             precision    recall  f1-score   support
+
+          0    0.77246   0.66495   0.71468       194
+          1    0.79821   0.56508   0.66171       315
+          2    0.84159   0.93165   0.88434      1112
+
+avg / total    0.82489   0.82850   0.82077      1621
+
+2018-03-06 16:59:52 - TestLog - INFO - Confusion matrix:
+[[ 129    4   61]
+ [   3  178  134]
+ [  35   41 1036]]
+2018-03-06 16:59:52 - CVLog - INFO - Validation round 2 of 10 starting
+2018-03-06 16:59:52 - TrainingLog - INFO - Initiating training of main classifier
+2018-03-06 17:00:41 - TrainingLog - INFO - Feature extractor ready
+2018-03-06 17:00:51 - TrainingLog - INFO - 1001 of 14581 feature vectors prepared for training
+2018-03-06 17:01:00 - TrainingLog - INFO - 2001 of 14581 feature vectors prepared for training
+2018-03-06 17:01:07 - TrainingLog - INFO - 3001 of 14581 feature vectors prepared for training
+2018-03-06 17:01:16 - TrainingLog - INFO - 4001 of 14581 feature vectors prepared for training
+2018-03-06 17:01:26 - TrainingLog - INFO - 5001 of 14581 feature vectors prepared for training
+2018-03-06 17:01:32 - TrainingLog - INFO - 6001 of 14581 feature vectors prepared for training
+2018-03-06 17:01:37 - TrainingLog - INFO - 7001 of 14581 feature vectors prepared for training
+2018-03-06 17:01:41 - TrainingLog - INFO - 8001 of 14581 feature vectors prepared for training
+2018-03-06 17:01:45 - TrainingLog - INFO - 9001 of 14581 feature vectors prepared for training
+2018-03-06 17:01:49 - TrainingLog - INFO - 10001 of 14581 feature vectors prepared for training
+2018-03-06 17:01:53 - TrainingLog - INFO - 11001 of 14581 feature vectors prepared for training
+2018-03-06 17:01:57 - TrainingLog - INFO - 12001 of 14581 feature vectors prepared for training
+2018-03-06 17:02:01 - TrainingLog - INFO - 13001 of 14581 feature vectors prepared for training
+2018-03-06 17:02:05 - TrainingLog - INFO - 14001 of 14581 feature vectors prepared for training
+2018-03-06 17:02:23 - TrainingLog - INFO - Main classifier training finished
+2018-03-06 17:02:24 - TestLog - INFO - 101 samples classified. Accuracy up till now is 0.7920792079207921
+2018-03-06 17:02:24 - TestLog - INFO - 201 samples classified. Accuracy up till now is 0.8407960199004975
+2018-03-06 17:02:24 - TestLog - INFO - 301 samples classified. Accuracy up till now is 0.8305647840531561
+2018-03-06 17:02:25 - TestLog - INFO - 401 samples classified. Accuracy up till now is 0.827930174563591
+2018-03-06 17:02:25 - TestLog - INFO - 501 samples classified. Accuracy up till now is 0.8303393213572854
+2018-03-06 17:02:26 - TestLog - INFO - 601 samples classified. Accuracy up till now is 0.831946755407654
+2018-03-06 17:02:26 - TestLog - INFO - 701 samples classified. Accuracy up till now is 0.833095577746077
+2018-03-06 17:02:27 - TestLog - INFO - 801 samples classified. Accuracy up till now is 0.8277153558052435
+2018-03-06 17:02:27 - TestLog - INFO - 901 samples classified. Accuracy up till now is 0.8290788013318535
+2018-03-06 17:02:28 - TestLog - INFO - 1001 samples classified. Accuracy up till now is 0.8371628371628371
+2018-03-06 17:02:28 - TestLog - INFO - 1101 samples classified. Accuracy up till now is 0.8346957311534968
+2018-03-06 17:02:29 - TestLog - INFO - 1201 samples classified. Accuracy up till now is 0.8351373855120733
+2018-03-06 17:02:29 - TestLog - INFO - 1301 samples classified. Accuracy up till now is 0.8324365872405841
+2018-03-06 17:02:29 - TestLog - INFO - 1401 samples classified. Accuracy up till now is 0.8294075660242684
+2018-03-06 17:02:30 - TestLog - INFO - 1501 samples classified. Accuracy up till now is 0.8241172551632245
+2018-03-06 17:02:30 - TestLog - INFO - 1601 samples classified. Accuracy up till now is 0.8269831355402874
+2018-03-06 17:02:31 - TestLog - INFO - Total 1621 samples classified with accuracy 0.8260333127698951
+2018-03-06 17:02:31 - TestLog - INFO - AUROC is 0.9192880488408429
+2018-03-06 17:02:31 - TestLog - INFO - Classification report:
+             precision    recall  f1-score   support
+
+          0    0.76216   0.72680   0.74406       194
+          1    0.80476   0.53651   0.64381       315
+          2    0.83931   0.92536   0.88024      1112
+
+avg / total    0.82337   0.82603   0.81800      1621
+
+2018-03-06 17:02:31 - TestLog - INFO - Confusion matrix:
+[[ 141    0   53]
+ [   2  169  144]
+ [  42   41 1029]]
+2018-03-06 17:02:31 - CVLog - INFO - Validation round 3 of 10 starting
+2018-03-06 17:02:31 - TrainingLog - INFO - Initiating training of main classifier
+2018-03-06 17:02:52 - TrainingLog - INFO - Feature extractor ready
+2018-03-06 17:02:56 - TrainingLog - INFO - 1001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:01 - TrainingLog - INFO - 2001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:05 - TrainingLog - INFO - 3001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:13 - TrainingLog - INFO - 4001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:19 - TrainingLog - INFO - 5001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:26 - TrainingLog - INFO - 6001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:32 - TrainingLog - INFO - 7001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:37 - TrainingLog - INFO - 8001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:41 - TrainingLog - INFO - 9001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:45 - TrainingLog - INFO - 10001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:49 - TrainingLog - INFO - 11001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:53 - TrainingLog - INFO - 12001 of 14581 feature vectors prepared for training
+2018-03-06 17:03:57 - TrainingLog - INFO - 13001 of 14581 feature vectors prepared for training
+2018-03-06 17:04:01 - TrainingLog - INFO - 14001 of 14581 feature vectors prepared for training
+2018-03-06 17:04:21 - TrainingLog - INFO - Main classifier training finished
+2018-03-06 17:04:22 - TestLog - INFO - 101 samples classified. Accuracy up till now is 0.8712871287128713
+2018-03-06 17:04:23 - TestLog - INFO - 201 samples classified. Accuracy up till now is 0.8756218905472637
+2018-03-06 17:04:24 - TestLog - INFO - 301 samples classified. Accuracy up till now is 0.8637873754152824
+2018-03-06 17:04:24 - TestLog - INFO - 401 samples classified. Accuracy up till now is 0.8528678304239401
+2018-03-06 17:04:25 - TestLog - INFO - 501 samples classified. Accuracy up till now is 0.8562874251497006
+2018-03-06 17:04:26 - TestLog - INFO - 601 samples classified. Accuracy up till now is 0.8519134775374376
+2018-03-06 17:04:26 - TestLog - INFO - 701 samples classified. Accuracy up till now is 0.8445078459343794
+2018-03-06 17:04:27 - TestLog - INFO - 801 samples classified. Accuracy up till now is 0.8426966292134831
+2018-03-06 17:04:27 - TestLog - INFO - 901 samples classified. Accuracy up till now is 0.8446170921198668
+2018-03-06 17:04:28 - TestLog - INFO - 1001 samples classified. Accuracy up till now is 0.8411588411588412
+2018-03-06 17:04:28 - TestLog - INFO - 1101 samples classified. Accuracy up till now is 0.8401453224341507
+2018-03-06 17:04:29 - TestLog - INFO - 1201 samples classified. Accuracy up till now is 0.8409658617818485
+2018-03-06 17:04:29 - TestLog - INFO - 1301 samples classified. Accuracy up till now is 0.8439661798616449
+2018-03-06 17:04:30 - TestLog - INFO - 1401 samples classified. Accuracy up till now is 0.8465381870092791
+2018-03-06 17:04:30 - TestLog - INFO - 1501 samples classified. Accuracy up till now is 0.843437708194537
+2018-03-06 17:04:30 - TestLog - INFO - 1601 samples classified. Accuracy up till now is 0.8438475952529669
+2018-03-06 17:04:31 - TestLog - INFO - Total 1621 samples classified with accuracy 0.8439235040098705
+2018-03-06 17:04:31 - TestLog - INFO - AUROC is 0.9328229317933127
+2018-03-06 17:04:31 - TestLog - INFO - Classification report:
+             precision    recall  f1-score   support
+
+          0    0.79885   0.71649   0.75543       194
+          1    0.83562   0.58095   0.68539       315
+          2    0.85179   0.94065   0.89402      1112
+
+avg / total    0.84231   0.84392   0.83689      1621
+
+2018-03-06 17:04:31 - TestLog - INFO - Confusion matrix:
+[[ 139    1   54]
+ [   4  183  128]
+ [  31   35 1046]]
+2018-03-06 17:04:31 - CVLog - INFO - Validation round 4 of 10 starting
+2018-03-06 17:04:31 - TrainingLog - INFO - Initiating training of main classifier
+2018-03-06 17:04:53 - TrainingLog - INFO - Feature extractor ready
+2018-03-06 17:04:57 - TrainingLog - INFO - 1001 of 14581 feature vectors prepared for training
+2018-03-06 17:05:03 - TrainingLog - INFO - 2001 of 14581 feature vectors prepared for training
+2018-03-06 17:05:07 - TrainingLog - INFO - 3001 of 14581 feature vectors prepared for training
+2018-03-06 17:05:13 - TrainingLog - INFO - 4001 of 14581 feature vectors prepared for training
+2018-03-06 17:05:18 - TrainingLog - INFO - 5001 of 14581 feature vectors prepared for training
+2018-03-06 17:05:24 - TrainingLog - INFO - 6001 of 14581 feature vectors prepared for training
+2018-03-06 17:05:32 - TrainingLog - INFO - 7001 of 14581 feature vectors prepared for training
+2018-03-06 17:05:37 - TrainingLog - INFO - 8001 of 14581 feature vectors prepared for training
+2018-03-06 17:05:43 - TrainingLog - INFO - 9001 of 14581 feature vectors prepared for training
+2018-03-06 17:05:50 - TrainingLog - INFO - 10001 of 14581 feature vectors prepared for training
+2018-03-06 17:05:54 - TrainingLog - INFO - 11001 of 14581 feature vectors prepared for training
+2018-03-06 17:05:58 - TrainingLog - INFO - 12001 of 14581 feature vectors prepared for training
+2018-03-06 17:06:02 - TrainingLog - INFO - 13001 of 14581 feature vectors prepared for training
+2018-03-06 17:06:07 - TrainingLog - INFO - 14001 of 14581 feature vectors prepared for training
+2018-03-06 17:06:26 - TrainingLog - INFO - Main classifier training finished
+2018-03-06 17:06:26 - TestLog - INFO - 101 samples classified. Accuracy up till now is 0.7722772277227723
+2018-03-06 17:06:27 - TestLog - INFO - 201 samples classified. Accuracy up till now is 0.8507462686567164
+2018-03-06 17:06:28 - TestLog - INFO - 301 samples classified. Accuracy up till now is 0.840531561461794
+2018-03-06 17:06:28 - TestLog - INFO - 401 samples classified. Accuracy up till now is 0.8478802992518704
+2018-03-06 17:06:29 - TestLog - INFO - 501 samples classified. Accuracy up till now is 0.8542914171656687
+2018-03-06 17:06:29 - TestLog - INFO - 601 samples classified. Accuracy up till now is 0.8535773710482529
+2018-03-06 17:06:30 - TestLog - INFO - 701 samples classified. Accuracy up till now is 0.8530670470756063
+2018-03-06 17:06:31 - TestLog - INFO - 801 samples classified. Accuracy up till now is 0.8451935081148564
+2018-03-06 17:06:31 - TestLog - INFO - 901 samples classified. Accuracy up till now is 0.8357380688124306
+2018-03-06 17:06:32 - TestLog - INFO - 1001 samples classified. Accuracy up till now is 0.8371628371628371
+2018-03-06 17:06:32 - TestLog - INFO - 1101 samples classified. Accuracy up till now is 0.8337874659400545
+2018-03-06 17:06:33 - TestLog - INFO - 1201 samples classified. Accuracy up till now is 0.8343047460449625
+2018-03-06 17:06:33 - TestLog - INFO - 1301 samples classified. Accuracy up till now is 0.8316679477325134
+2018-03-06 17:06:34 - TestLog - INFO - 1401 samples classified. Accuracy up till now is 0.828693790149893
+2018-03-06 17:06:34 - TestLog - INFO - 1501 samples classified. Accuracy up till now is 0.826782145236509
+2018-03-06 17:06:34 - TestLog - INFO - 1601 samples classified. Accuracy up till now is 0.8288569643972518
+2018-03-06 17:06:35 - TestLog - INFO - Total 1621 samples classified with accuracy 0.8291178285009253
+2018-03-06 17:06:35 - TestLog - INFO - AUROC is 0.9130971979911422
+2018-03-06 17:06:35 - TestLog - INFO - Classification report:
+             precision    recall  f1-score   support
+
+          0    0.76331   0.66495   0.71074       194
+          1    0.83981   0.54921   0.66411       315
+          2    0.83628   0.93705   0.88380      1112
+
+avg / total    0.82823   0.82912   0.82040      1621
+
+2018-03-06 17:06:35 - TestLog - INFO - Confusion matrix:
+[[ 129    2   63]
+ [   1  173  141]
+ [  39   31 1042]]
+2018-03-06 17:06:35 - CVLog - INFO - Validation round 5 of 10 starting
+2018-03-06 17:06:35 - TrainingLog - INFO - Initiating training of main classifier
+2018-03-06 17:07:00 - TrainingLog - INFO - Feature extractor ready
+2018-03-06 17:07:06 - TrainingLog - INFO - 1001 of 14581 feature vectors prepared for training
+2018-03-06 17:07:11 - TrainingLog - INFO - 2001 of 14581 feature vectors prepared for training
+2018-03-06 17:07:17 - TrainingLog - INFO - 3001 of 14581 feature vectors prepared for training
+2018-03-06 17:07:23 - TrainingLog - INFO - 4001 of 14581 feature vectors prepared for training
+2018-03-06 17:07:30 - TrainingLog - INFO - 5001 of 14581 feature vectors prepared for training
+2018-03-06 17:07:38 - TrainingLog - INFO - 6001 of 14581 feature vectors prepared for training
+2018-03-06 17:07:45 - TrainingLog - INFO - 7001 of 14581 feature vectors prepared for training
+2018-03-06 17:07:51 - TrainingLog - INFO - 8001 of 14581 feature vectors prepared for training
+2018-03-06 17:07:56 - TrainingLog - INFO - 9001 of 14581 feature vectors prepared for training
+2018-03-06 17:08:00 - TrainingLog - INFO - 10001 of 14581 feature vectors prepared for training
+2018-03-06 17:08:04 - TrainingLog - INFO - 11001 of 14581 feature vectors prepared for training
+2018-03-06 17:08:07 - TrainingLog - INFO - 12001 of 14581 feature vectors prepared for training
+2018-03-06 17:08:11 - TrainingLog - INFO - 13001 of 14581 feature vectors prepared for training
+2018-03-06 17:08:14 - TrainingLog - INFO - 14001 of 14581 feature vectors prepared for training
+2018-03-06 17:08:30 - TrainingLog - INFO - Main classifier training finished
+2018-03-06 17:08:31 - TestLog - INFO - 101 samples classified. Accuracy up till now is 0.8118811881188119
+2018-03-06 17:08:32 - TestLog - INFO - 201 samples classified. Accuracy up till now is 0.8009950248756219
+2018-03-06 17:08:33 - TestLog - INFO - 301 samples classified. Accuracy up till now is 0.8205980066445183
+2018-03-06 17:08:33 - TestLog - INFO - 401 samples classified. Accuracy up till now is 0.830423940149626
+2018-03-06 17:08:34 - TestLog - INFO - 501 samples classified. Accuracy up till now is 0.8263473053892215
+2018-03-06 17:08:35 - TestLog - INFO - 601 samples classified. Accuracy up till now is 0.8252911813643927
+2018-03-06 17:08:35 - TestLog - INFO - 701 samples classified. Accuracy up till now is 0.8373751783166904
+2018-03-06 17:08:36 - TestLog - INFO - 801 samples classified. Accuracy up till now is 0.846441947565543
+2018-03-06 17:08:36 - TestLog - INFO - 901 samples classified. Accuracy up till now is 0.8412874583795783
+2018-03-06 17:08:37 - TestLog - INFO - 1001 samples classified. Accuracy up till now is 0.8441558441558441
+2018-03-06 17:08:37 - TestLog - INFO - 1101 samples classified. Accuracy up till now is 0.8446866485013624
+2018-03-06 17:08:38 - TestLog - INFO - 1201 samples classified. Accuracy up till now is 0.8451290591174022
+2018-03-06 17:08:38 - TestLog - INFO - 1301 samples classified. Accuracy up till now is 0.8431975403535742
+2018-03-06 17:08:39 - TestLog - INFO - 1401 samples classified. Accuracy up till now is 0.8401142041399001
+2018-03-06 17:08:39 - TestLog - INFO - 1501 samples classified. Accuracy up till now is 0.8407728181212525
+2018-03-06 17:08:39 - TestLog - INFO - 1601 samples classified. Accuracy up till now is 0.8376014990630856
+2018-03-06 17:08:40 - TestLog - INFO - Total 1621 samples classified with accuracy 0.838371375694016
+2018-03-06 17:08:40 - TestLog - INFO - AUROC is 0.9203825097948846
+2018-03-06 17:08:40 - TestLog - INFO - Classification report:
+             precision    recall  f1-score   support
+
+          0    0.77500   0.63918   0.70056       194
+          1    0.82231   0.63175   0.71454       315
+          2    0.84988   0.93165   0.88889      1112
+
+avg / total    0.83556   0.83837   0.83247      1621
+
+2018-03-06 17:08:40 - TestLog - INFO - Confusion matrix:
+[[ 124    1   69]
+ [   2  199  114]
+ [  34   42 1036]]
+2018-03-06 17:08:40 - CVLog - INFO - Validation round 6 of 10 starting
+2018-03-06 17:08:40 - TrainingLog - INFO - Initiating training of main classifier
+2018-03-06 17:09:03 - TrainingLog - INFO - Feature extractor ready
+2018-03-06 17:09:07 - TrainingLog - INFO - 1001 of 14582 feature vectors prepared for training
+2018-03-06 17:09:11 - TrainingLog - INFO - 2001 of 14582 feature vectors prepared for training
+2018-03-06 17:09:15 - TrainingLog - INFO - 3001 of 14582 feature vectors prepared for training
+2018-03-06 17:09:20 - TrainingLog - INFO - 4001 of 14582 feature vectors prepared for training
+2018-03-06 17:09:26 - TrainingLog - INFO - 5001 of 14582 feature vectors prepared for training
+2018-03-06 17:09:33 - TrainingLog - INFO - 6001 of 14582 feature vectors prepared for training
+2018-03-06 17:09:40 - TrainingLog - INFO - 7001 of 14582 feature vectors prepared for training
+2018-03-06 17:09:46 - TrainingLog - INFO - 8001 of 14582 feature vectors prepared for training
+2018-03-06 17:09:51 - TrainingLog - INFO - 9001 of 14582 feature vectors prepared for training
+2018-03-06 17:09:55 - TrainingLog - INFO - 10001 of 14582 feature vectors prepared for training
+2018-03-06 17:09:59 - TrainingLog - INFO - 11001 of 14582 feature vectors prepared for training
+2018-03-06 17:10:04 - TrainingLog - INFO - 12001 of 14582 feature vectors prepared for training
+2018-03-06 17:10:09 - TrainingLog - INFO - 13001 of 14582 feature vectors prepared for training
+2018-03-06 17:10:13 - TrainingLog - INFO - 14001 of 14582 feature vectors prepared for training
+2018-03-06 17:10:33 - TrainingLog - INFO - Main classifier training finished
+2018-03-06 17:10:34 - TestLog - INFO - 101 samples classified. Accuracy up till now is 0.8613861386138614
+2018-03-06 17:10:35 - TestLog - INFO - 201 samples classified. Accuracy up till now is 0.8059701492537313
+2018-03-06 17:10:35 - TestLog - INFO - 301 samples classified. Accuracy up till now is 0.8305647840531561
+2018-03-06 17:10:36 - TestLog - INFO - 401 samples classified. Accuracy up till now is 0.8329177057356608
+2018-03-06 17:10:36 - TestLog - INFO - 501 samples classified. Accuracy up till now is 0.8403193612774451
+2018-03-06 17:10:37 - TestLog - INFO - 601 samples classified. Accuracy up till now is 0.8302828618968386
+2018-03-06 17:10:38 - TestLog - INFO - 701 samples classified. Accuracy up till now is 0.833095577746077
+2018-03-06 17:10:38 - TestLog - INFO - 801 samples classified. Accuracy up till now is 0.8377028714107366
+2018-03-06 17:10:38 - TestLog - INFO - 901 samples classified. Accuracy up till now is 0.8290788013318535
+2018-03-06 17:10:39 - TestLog - INFO - 1001 samples classified. Accuracy up till now is 0.8301698301698301
+2018-03-06 17:10:39 - TestLog - INFO - 1101 samples classified. Accuracy up till now is 0.8301544050862852
+2018-03-06 17:10:40 - TestLog - INFO - 1201 samples classified. Accuracy up till now is 0.8301415487094088
+2018-03-06 17:10:40 - TestLog - INFO - 1301 samples classified. Accuracy up till now is 0.8316679477325134
+2018-03-06 17:10:41 - TestLog - INFO - 1401 samples classified. Accuracy up till now is 0.827266238401142
+2018-03-06 17:10:42 - TestLog - INFO - 1501 samples classified. Accuracy up till now is 0.826782145236509
+2018-03-06 17:10:42 - TestLog - INFO - 1601 samples classified. Accuracy up till now is 0.8276077451592755
+2018-03-06 17:10:42 - TestLog - INFO - Total 1620 samples classified with accuracy 0.8290123456790124
+2018-03-06 17:10:42 - TestLog - INFO - AUROC is 0.9197047278704623
+2018-03-06 17:10:42 - TestLog - INFO - Classification report:
+             precision    recall  f1-score   support
+
+          0    0.77160   0.64433   0.70225       194
+          1    0.80702   0.58413   0.67772       315
+          2    0.84065   0.93069   0.88338      1111
+
+avg / total    0.82584   0.82901   0.82170      1620
+
+2018-03-06 17:10:42 - TestLog - INFO - Confusion matrix:
+[[ 125    3   66]
+ [   1  184  130]
+ [  36   41 1034]]
+2018-03-06 17:10:42 - CVLog - INFO - Validation round 7 of 10 starting
+2018-03-06 17:10:42 - TrainingLog - INFO - Initiating training of main classifier
+2018-03-06 17:11:00 - TrainingLog - INFO - Feature extractor ready
+2018-03-06 17:11:02 - TrainingLog - INFO - 1001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:03 - TrainingLog - INFO - 2001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:05 - TrainingLog - INFO - 3001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:07 - TrainingLog - INFO - 4001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:09 - TrainingLog - INFO - 5001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:13 - TrainingLog - INFO - 6001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:15 - TrainingLog - INFO - 7001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:17 - TrainingLog - INFO - 8001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:20 - TrainingLog - INFO - 9001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:23 - TrainingLog - INFO - 10001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:25 - TrainingLog - INFO - 11001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:28 - TrainingLog - INFO - 12001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:31 - TrainingLog - INFO - 13001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:35 - TrainingLog - INFO - 14001 of 14582 feature vectors prepared for training
+2018-03-06 17:11:55 - TrainingLog - INFO - Main classifier training finished
+2018-03-06 17:11:56 - TestLog - INFO - 101 samples classified. Accuracy up till now is 0.8514851485148515
+2018-03-06 17:11:56 - TestLog - INFO - 201 samples classified. Accuracy up till now is 0.8706467661691543
+2018-03-06 17:11:57 - TestLog - INFO - 301 samples classified. Accuracy up till now is 0.8770764119601329
+2018-03-06 17:11:58 - TestLog - INFO - 401 samples classified. Accuracy up till now is 0.8753117206982544
+2018-03-06 17:11:58 - TestLog - INFO - 501 samples classified. Accuracy up till now is 0.8602794411177644
+2018-03-06 17:11:59 - TestLog - INFO - 601 samples classified. Accuracy up till now is 0.8585690515806988
+2018-03-06 17:11:59 - TestLog - INFO - 701 samples classified. Accuracy up till now is 0.8573466476462197
+2018-03-06 17:12:00 - TestLog - INFO - 801 samples classified. Accuracy up till now is 0.8576779026217228
+2018-03-06 17:12:00 - TestLog - INFO - 901 samples classified. Accuracy up till now is 0.853496115427303
+2018-03-06 17:12:01 - TestLog - INFO - 1001 samples classified. Accuracy up till now is 0.8461538461538461
+2018-03-06 17:12:01 - TestLog - INFO - 1101 samples classified. Accuracy up till now is 0.8446866485013624
+2018-03-06 17:12:02 - TestLog - INFO - 1201 samples classified. Accuracy up till now is 0.8343047460449625
+2018-03-06 17:12:02 - TestLog - INFO - 1301 samples classified. Accuracy up till now is 0.8332052267486548
+2018-03-06 17:12:03 - TestLog - INFO - 1401 samples classified. Accuracy up till now is 0.8294075660242684
+2018-03-06 17:12:04 - TestLog - INFO - 1501 samples classified. Accuracy up till now is 0.8287808127914723
+2018-03-06 17:12:05 - TestLog - INFO - 1601 samples classified. Accuracy up till now is 0.8313554028732042
+2018-03-06 17:12:05 - TestLog - INFO - Total 1620 samples classified with accuracy 0.832716049382716
+2018-03-06 17:12:05 - TestLog - INFO - AUROC is 0.9210440101916978
+2018-03-06 17:12:05 - TestLog - INFO - Classification report:
+             precision    recall  f1-score   support
+
+          0    0.77901   0.72680   0.75200       194
+          1    0.79111   0.56508   0.65926       315
+          2    0.84843   0.92709   0.88602      1111
+
+avg / total    0.82897   0.83272   0.82588      1620
+
+2018-03-06 17:12:05 - TestLog - INFO - Confusion matrix:
+[[ 141    5   48]
+ [   1  178  136]
+ [  39   42 1030]]
+2018-03-06 17:12:05 - CVLog - INFO - Validation round 8 of 10 starting
+2018-03-06 17:12:05 - TrainingLog - INFO - Initiating training of main classifier
+2018-03-06 17:12:26 - TrainingLog - INFO - Feature extractor ready
+2018-03-06 17:12:30 - TrainingLog - INFO - 1001 of 14582 feature vectors prepared for training
+2018-03-06 17:12:34 - TrainingLog - INFO - 2001 of 14582 feature vectors prepared for training
+2018-03-06 17:12:39 - TrainingLog - INFO - 3001 of 14582 feature vectors prepared for training
+2018-03-06 17:12:43 - TrainingLog - INFO - 4001 of 14582 feature vectors prepared for training
+2018-03-06 17:12:47 - TrainingLog - INFO - 5001 of 14582 feature vectors prepared for training
+2018-03-06 17:12:52 - TrainingLog - INFO - 6001 of 14582 feature vectors prepared for training
+2018-03-06 17:12:56 - TrainingLog - INFO - 7001 of 14582 feature vectors prepared for training
+2018-03-06 17:13:00 - TrainingLog - INFO - 8001 of 14582 feature vectors prepared for training
+2018-03-06 17:13:05 - TrainingLog - INFO - 9001 of 14582 feature vectors prepared for training
+2018-03-06 17:13:09 - TrainingLog - INFO - 10001 of 14582 feature vectors prepared for training
+2018-03-06 17:13:13 - TrainingLog - INFO - 11001 of 14582 feature vectors prepared for training
+2018-03-06 17:13:18 - TrainingLog - INFO - 12001 of 14582 feature vectors prepared for training
+2018-03-06 17:13:25 - TrainingLog - INFO - 13001 of 14582 feature vectors prepared for training
+2018-03-06 17:13:33 - TrainingLog - INFO - 14001 of 14582 feature vectors prepared for training
+2018-03-06 17:13:57 - TrainingLog - INFO - Main classifier training finished
+2018-03-06 17:13:58 - TestLog - INFO - 101 samples classified. Accuracy up till now is 0.8118811881188119
+2018-03-06 17:13:58 - TestLog - INFO - 201 samples classified. Accuracy up till now is 0.8159203980099502
+2018-03-06 17:13:59 - TestLog - INFO - 301 samples classified. Accuracy up till now is 0.8305647840531561
+2018-03-06 17:13:59 - TestLog - INFO - 401 samples classified. Accuracy up till now is 0.8229426433915212
+2018-03-06 17:14:00 - TestLog - INFO - 501 samples classified. Accuracy up till now is 0.8323353293413174
+2018-03-06 17:14:00 - TestLog - INFO - 601 samples classified. Accuracy up till now is 0.826955074875208
+2018-03-06 17:14:01 - TestLog - INFO - 701 samples classified. Accuracy up till now is 0.8245363766048502
+2018-03-06 17:14:01 - TestLog - INFO - 801 samples classified. Accuracy up till now is 0.8239700374531835
+2018-03-06 17:14:01 - TestLog - INFO - 901 samples classified. Accuracy up till now is 0.8290788013318535
+2018-03-06 17:14:02 - TestLog - INFO - 1001 samples classified. Accuracy up till now is 0.8331668331668332
+2018-03-06 17:14:02 - TestLog - INFO - 1101 samples classified. Accuracy up till now is 0.8374205267938238
+2018-03-06 17:14:03 - TestLog - INFO - 1201 samples classified. Accuracy up till now is 0.8426311407160699
+2018-03-06 17:14:03 - TestLog - INFO - 1301 samples classified. Accuracy up till now is 0.8401229823212913
+2018-03-06 17:14:04 - TestLog - INFO - 1401 samples classified. Accuracy up till now is 0.8422555317630264
+2018-03-06 17:14:04 - TestLog - INFO - 1501 samples classified. Accuracy up till now is 0.8387741505662891
+2018-03-06 17:14:05 - TestLog - INFO - 1601 samples classified. Accuracy up till now is 0.835103060587133
+2018-03-06 17:14:05 - TestLog - INFO - Total 1620 samples classified with accuracy 0.8358024691358025
+2018-03-06 17:14:05 - TestLog - INFO - AUROC is 0.9204341492651115
+2018-03-06 17:14:05 - TestLog - INFO - Classification report:
+             precision    recall  f1-score   support
+
+          0    0.79245   0.64948   0.71388       194
+          1    0.85646   0.56825   0.68321       315
+          2    0.83786   0.94419   0.88785      1111
+
+avg / total    0.83604   0.83580   0.82723      1620
+
+2018-03-06 17:14:05 - TestLog - INFO - Confusion matrix:
+[[ 126    1   67]
+ [   0  179  136]
+ [  33   29 1049]]
+2018-03-06 17:14:05 - CVLog - INFO - Validation round 9 of 10 starting
+2018-03-06 17:14:05 - TrainingLog - INFO - Initiating training of main classifier
+2018-03-06 17:14:25 - TrainingLog - INFO - Feature extractor ready
+2018-03-06 17:14:30 - TrainingLog - INFO - 1001 of 14583 feature vectors prepared for training
+2018-03-06 17:14:35 - TrainingLog - INFO - 2001 of 14583 feature vectors prepared for training
+2018-03-06 17:14:39 - TrainingLog - INFO - 3001 of 14583 feature vectors prepared for training
+2018-03-06 17:14:43 - TrainingLog - INFO - 4001 of 14583 feature vectors prepared for training
+2018-03-06 17:14:48 - TrainingLog - INFO - 5001 of 14583 feature vectors prepared for training
+2018-03-06 17:14:54 - TrainingLog - INFO - 6001 of 14583 feature vectors prepared for training
+2018-03-06 17:14:59 - TrainingLog - INFO - 7001 of 14583 feature vectors prepared for training
+2018-03-06 17:15:05 - TrainingLog - INFO - 8001 of 14583 feature vectors prepared for training
+2018-03-06 17:15:10 - TrainingLog - INFO - 9001 of 14583 feature vectors prepared for training
+2018-03-06 17:15:15 - TrainingLog - INFO - 10001 of 14583 feature vectors prepared for training
+2018-03-06 17:15:19 - TrainingLog - INFO - 11001 of 14583 feature vectors prepared for training
+2018-03-06 17:15:23 - TrainingLog - INFO - 12001 of 14583 feature vectors prepared for training
+2018-03-06 17:15:29 - TrainingLog - INFO - 13001 of 14583 feature vectors prepared for training
+2018-03-06 17:15:33 - TrainingLog - INFO - 14001 of 14583 feature vectors prepared for training
+2018-03-06 17:15:53 - TrainingLog - INFO - Main classifier training finished
+2018-03-06 17:15:54 - TestLog - INFO - 101 samples classified. Accuracy up till now is 0.8514851485148515
+2018-03-06 17:15:55 - TestLog - INFO - 201 samples classified. Accuracy up till now is 0.8208955223880597
+2018-03-06 17:15:56 - TestLog - INFO - 301 samples classified. Accuracy up till now is 0.8438538205980066
+2018-03-06 17:15:56 - TestLog - INFO - 401 samples classified. Accuracy up till now is 0.8254364089775561
+2018-03-06 17:15:57 - TestLog - INFO - 501 samples classified. Accuracy up till now is 0.8263473053892215
+2018-03-06 17:15:58 - TestLog - INFO - 601 samples classified. Accuracy up till now is 0.8302828618968386
+2018-03-06 17:15:58 - TestLog - INFO - 701 samples classified. Accuracy up till now is 0.8273894436519258
+2018-03-06 17:15:59 - TestLog - INFO - 801 samples classified. Accuracy up till now is 0.8339575530586767
+2018-03-06 17:15:59 - TestLog - INFO - 901 samples classified. Accuracy up till now is 0.8357380688124306
+2018-03-06 17:16:00 - TestLog - INFO - 1001 samples classified. Accuracy up till now is 0.8391608391608392
+2018-03-06 17:16:01 - TestLog - INFO - 1101 samples classified. Accuracy up till now is 0.8356039963669392
+2018-03-06 17:16:01 - TestLog - INFO - 1201 samples classified. Accuracy up till now is 0.8426311407160699
+2018-03-06 17:16:02 - TestLog - INFO - 1301 samples classified. Accuracy up till now is 0.8385857033051499
+2018-03-06 17:16:03 - TestLog - INFO - 1401 samples classified. Accuracy up till now is 0.8351177730192719
+2018-03-06 17:16:03 - TestLog - INFO - 1501 samples classified. Accuracy up till now is 0.8361092604930047
+2018-03-06 17:16:04 - TestLog - INFO - 1601 samples classified. Accuracy up till now is 0.8369768894440974
+2018-03-06 17:16:04 - TestLog - INFO - Total 1619 samples classified with accuracy 0.8363187152563311
+2018-03-06 17:16:04 - TestLog - INFO - AUROC is 0.9275169920444647
+2018-03-06 17:16:04 - TestLog - INFO - Classification report:
+             precision    recall  f1-score   support
+
+          0    0.73913   0.70103   0.71958       194
+          1    0.82128   0.61465   0.70310       314
+          2    0.85417   0.92259   0.88706      1111
+
+avg / total    0.83400   0.83632   0.83131      1619
+
+2018-03-06 17:16:04 - TestLog - INFO - Confusion matrix:
+[[ 136    3   55]
+ [   1  193  120]
+ [  47   39 1025]]
+2018-03-06 17:16:04 - CVLog - INFO - Validation round 10 of 10 starting
+2018-03-06 17:16:04 - TrainingLog - INFO - Initiating training of main classifier
+2018-03-06 17:16:26 - TrainingLog - INFO - Feature extractor ready
+2018-03-06 17:16:31 - TrainingLog - INFO - 1001 of 14584 feature vectors prepared for training
+2018-03-06 17:16:36 - TrainingLog - INFO - 2001 of 14584 feature vectors prepared for training
+2018-03-06 17:16:42 - TrainingLog - INFO - 3001 of 14584 feature vectors prepared for training
+2018-03-06 17:16:48 - TrainingLog - INFO - 4001 of 14584 feature vectors prepared for training
+2018-03-06 17:16:54 - TrainingLog - INFO - 5001 of 14584 feature vectors prepared for training
+2018-03-06 17:17:01 - TrainingLog - INFO - 6001 of 14584 feature vectors prepared for training
+2018-03-06 17:17:10 - TrainingLog - INFO - 7001 of 14584 feature vectors prepared for training
+2018-03-06 17:17:17 - TrainingLog - INFO - 8001 of 14584 feature vectors prepared for training
+2018-03-06 17:17:25 - TrainingLog - INFO - 9001 of 14584 feature vectors prepared for training
+2018-03-06 17:17:30 - TrainingLog - INFO - 10001 of 14584 feature vectors prepared for training
+2018-03-06 17:17:35 - TrainingLog - INFO - 11001 of 14584 feature vectors prepared for training
+2018-03-06 17:17:39 - TrainingLog - INFO - 12001 of 14584 feature vectors prepared for training
+2018-03-06 17:17:43 - TrainingLog - INFO - 13001 of 14584 feature vectors prepared for training
+2018-03-06 17:17:47 - TrainingLog - INFO - 14001 of 14584 feature vectors prepared for training
+2018-03-06 17:18:09 - TrainingLog - INFO - Main classifier training finished
+2018-03-06 17:18:10 - TestLog - INFO - 101 samples classified. Accuracy up till now is 0.8514851485148515
+2018-03-06 17:18:10 - TestLog - INFO - 201 samples classified. Accuracy up till now is 0.835820895522388
+2018-03-06 17:18:11 - TestLog - INFO - 301 samples classified. Accuracy up till now is 0.8272425249169435
+2018-03-06 17:18:12 - TestLog - INFO - 401 samples classified. Accuracy up till now is 0.8179551122194514
+2018-03-06 17:18:12 - TestLog - INFO - 501 samples classified. Accuracy up till now is 0.8263473053892215
+2018-03-06 17:18:13 - TestLog - INFO - 601 samples classified. Accuracy up till now is 0.8136439267886856
+2018-03-06 17:18:13 - TestLog - INFO - 701 samples classified. Accuracy up till now is 0.81169757489301
+2018-03-06 17:18:14 - TestLog - INFO - 801 samples classified. Accuracy up till now is 0.815230961298377
+2018-03-06 17:18:15 - TestLog - INFO - 901 samples classified. Accuracy up till now is 0.8102108768035516
+2018-03-06 17:18:15 - TestLog - INFO - 1001 samples classified. Accuracy up till now is 0.8101898101898102
+2018-03-06 17:18:16 - TestLog - INFO - 1101 samples classified. Accuracy up till now is 0.810172570390554
+2018-03-06 17:18:16 - TestLog - INFO - 1201 samples classified. Accuracy up till now is 0.8109908409658618
+2018-03-06 17:18:17 - TestLog - INFO - 1301 samples classified. Accuracy up till now is 0.8109146810146042
+2018-03-06 17:18:18 - TestLog - INFO - 1401 samples classified. Accuracy up till now is 0.8094218415417559
+2018-03-06 17:18:19 - TestLog - INFO - 1501 samples classified. Accuracy up till now is 0.8074616922051966
+2018-03-06 17:18:19 - TestLog - INFO - 1601 samples classified. Accuracy up till now is 0.8101186758276078
+2018-03-06 17:18:19 - TestLog - INFO - Total 1618 samples classified with accuracy 0.8102595797280593
+2018-03-06 17:18:19 - TestLog - INFO - AUROC is 0.9083249252336464
+2018-03-06 17:18:19 - TestLog - INFO - Classification report:
+             precision    recall  f1-score   support
+
+          0    0.68889   0.64249   0.66488       193
+          1    0.79812   0.54140   0.64516       314
+          2    0.83020   0.91539   0.87072      1111
+
+avg / total    0.80712   0.81026   0.80239      1618
+
+2018-03-06 17:18:19 - TestLog - INFO - Confusion matrix:
+[[ 124    2   67]
+ [   3  170  141]
+ [  53   41 1017]]
+2018-03-06 17:18:19 - CVLog - INFO - 
+
+2018-03-06 17:18:19 - CVLog - INFO - Summary (precision, recall, F1, accuracy):
+2018-03-06 17:18:19 - CVLog - INFO - Metrics for round 1: [0.82488697904356578, 0.82850092535471931, 0.8207704195306208, 0.82850092535471931]
+2018-03-06 17:18:19 - CVLog - INFO - Metrics for round 2: [0.82336679033107341, 0.82603331276989511, 0.81799792243418357, 0.82603331276989511]
+2018-03-06 17:18:19 - CVLog - INFO - Metrics for round 3: [0.84231238247184959, 0.84392350400987048, 0.83689095174434913, 0.84392350400987048]
+2018-03-06 17:18:19 - CVLog - INFO - Metrics for round 4: [0.82822990746671932, 0.8291178285009253, 0.82039701841559298, 0.8291178285009253]
+2018-03-06 17:18:19 - CVLog - INFO - Metrics for round 5: [0.83555958800109631, 0.83837137569401599, 0.83247059772384846, 0.83837137569401599]
+2018-03-06 17:18:19 - CVLog - INFO - Metrics for round 6: [0.82584227528796117, 0.82901234567901239, 0.82170081447485133, 0.82901234567901239]
+2018-03-06 17:18:19 - CVLog - INFO - Metrics for round 7: [0.8289742434932833, 0.83271604938271604, 0.82587935749369434, 0.83271604938271604]
+2018-03-06 17:18:19 - CVLog - INFO - Metrics for round 8: [0.83603849329511171, 0.83580246913580247, 0.8272278424295445, 0.83580246913580247]
+2018-03-06 17:18:19 - CVLog - INFO - Metrics for round 9: [0.834003287262707, 0.83631871525633106, 0.831313121263066, 0.83631871525633106]
+2018-03-06 17:18:19 - CVLog - INFO - Metrics for round 10: [0.80712151970823898, 0.81025957972805929, 0.80239268716211365, 0.81025957972805929]
+2018-03-06 17:18:19 - CVLog - INFO - 
+
+2018-03-06 17:18:19 - CVLog - INFO - Final average metrics: 0.8286335466361606, 0.8310056105511346, 0.8237040732671865, 0.8310056105511346
+
+Process finished with exit code 0
