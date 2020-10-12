@@ -2,6 +2,24 @@
 
 Code for paper "Author Profiling for Abuse Detection", in Proceedings of the 27th International Conference on Computational Linguistics (COLING) 2018
 
+If you use this code, please cite our paper:
+```
+@inproceedings{mishra-etal-2018-author,
+    title = "Author Profiling for Abuse Detection",
+    author = "Mishra, Pushkar  and
+      Del Tredici, Marco  and
+      Yannakoudakis, Helen  and
+      Shutova, Ekaterina",
+    booktitle = "Proceedings of the 27th International Conference on Computational Linguistics",
+    month = aug,
+    year = "2018",
+    address = "Santa Fe, New Mexico, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/C18-1093",
+    pages = "1088--1098",
+}
+```
+
 Python3.5+ required to run the code. Dependencies can be installed with `pip install -r requirements.txt` followed by `python -m nltk.downloader punkt`
 
 The dataset for the code is provided in the _TwitterData/twitter_data_waseem_hovy.csv_ file as a list of _\[tweet ID, annotation\]_ pairs.
